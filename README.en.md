@@ -29,9 +29,7 @@ A Sankey diagram shows where power comes from (charger / battery) and where it g
 
 ## ⭐ Star History
 
-<a href="https://star-history.com/#Double517/powerflow&Date">
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Double517/powerflow&type=Date" width="600">
-</a>
+[![Star History Chart](https://api.star-history.com/svg?repos=Double517/powerflow&type=Date)](https://star-history.com/#Double517/powerflow&Date)
 
 ## 📥 Download
 

@@ -29,9 +29,7 @@
 
 ## ⭐ Star 趋势
 
-<a href="https://star-history.com/#Double517/powerflow&Date">
-  <img alt="Star 趋势图" src="https://api.star-history.com/svg?repos=Double517/powerflow&type=Date" width="600">
-</a>
+[![Star 趋势图](https://api.star-history.com/svg?repos=Double517/powerflow&type=Date)](https://star-history.com/#Double517/powerflow&Date)
 
 ## 📥 下载
 

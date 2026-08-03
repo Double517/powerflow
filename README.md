@@ -2,57 +2,63 @@
 
 # ⚡ PowerFlow · 电流
 
-**Make every watt visible · 让每一度电都被看见**
+**让每一度电都被看见**
 
-A macOS menu bar tool that visualizes your Mac's power flow in real time.
+实时可视化 macOS 电源流向的菜单栏工具。
 
-English · [简体中文](./README.zh-CN.md)
+[English](./README.en.md) · 简体中文
 
-[Website](https://powerflow.maohh.top) · [Download](https://powerflow.maohh.top) · [Changelog](https://powerflow.maohh.top/changelog.html) · [Feedback](https://github.com/Double517/powerflow/issues/new)
+[官网](https://powerflow.maohh.top) · [下载](https://powerflow.maohh.top) · [更新日志](https://powerflow.maohh.top/changelog.html) · [反馈](https://github.com/Double517/powerflow/issues/new)
 
 </div>
 
 ---
 
-A Sankey diagram shows where power comes from (charger / battery) and where it goes (hardware / apps) — how much each component actually draws. Designed to be privacy-first: all data local, no permission, never uploaded.
+用桑基图直观展示电源的「来」与「去」——充电器输入多少瓦、电池充了多少、系统消耗多少，各项硬件与应用各占多少。设计上坚持隐私优先：所有数据本地处理，免授权，绝不上传。
 
-![PowerFlow](https://powerflow.maohh.top/assets/screenshot-main-light.jpg)
+![电流](https://powerflow.maohh.top/assets/screenshot-main-light.jpg)
 
-## ✨ Features
+## ✨ 核心功能
 
-- **Power Flow Sankey** — left inputs → right outputs; bar width = power
-- **Power History** — 24h / 7d trends, persisted in SQLite
-- **Battery Estimate** — real-time time-remaining / time-to-full
-- **Battery Health** — health %, cycle count, temperature
-- **Smart Alerts** — high temp / abnormal drain / health decline
-- **Privacy First** — all data local, no permission, never uploaded
+- **电源流向桑基图** —— 左侧入口 → 右侧去向，带子宽度即功率大小
+- **功率历史曲线** —— 24h / 7d 趋势，SQLite 持久化
+- **续航估算** —— 实时显示「可用约 3 小时」或「充满约 41 分」
+- **电池健康** —— 健康度、循环次数、温度
+- **智能预警** —— 高温 / 异常耗电 / 健康度下降主动通知
+- **隐私优先** —— 数据全部本地，免授权，绝不上传
 
-## 📥 Download
+## ⭐ Star 趋势
 
-Get the latest build (Apple Silicon + Intel dmg) from the official site:
+<a href="https://star-history.com/#Double517/powerflow&Date">
+  <img alt="Star 趋势图" src="https://api.star-history.com/svg?repos=Double517/powerflow&type=Date" width="600">
+</a>
+
+## 📥 下载
+
+从官网获取最新版（Apple Silicon + Intel 双架构 dmg）：
 
 **👉 [powerflow.maohh.top](https://powerflow.maohh.top)**
 
-- Requires macOS 14+
-- Free
+- 需要 macOS 14+
+- 免费
 
-## 🔒 Privacy
+## 🔒 隐私
 
-All data comes from macOS system telemetry (`ioreg` / `system_profiler` / `ps`). No permission needed, no network calls except update checks. See the [privacy policy](https://powerflow.maohh.top/privacy.html).
+所有数据来自 macOS 系统遥测（`ioreg` / `system_profiler` / `ps`）。免授权读取，除检查更新外不发起任何网络请求。详见[隐私说明](https://powerflow.maohh.top/privacy.html)。
 
-## 💬 Feedback & Issues
+## 💬 反馈与建议
 
-Found a bug or have a suggestion? Please open an issue:
+遇到 Bug 或有功能建议？欢迎提交 Issue：
 
-**👉 [Submit an issue](https://github.com/Double517/powerflow/issues/new)**
+**👉 [提交 Issue](https://github.com/Double517/powerflow/issues/new)**
 
-To help diagnose, please include: **Mac model / macOS version / PowerFlow version / steps to reproduce**.
+为便于定位，请在反馈中附上：**Mac 机型 / macOS 版本 / 电流版本 / 复现步骤**。
 
-## 🔗 Links
+## 🔗 相关链接
 
-- **Website**: [powerflow.maohh.top](https://powerflow.maohh.top)
-- **Changelog**: [powerflow.maohh.top/changelog.html](https://powerflow.maohh.top/changelog.html)
-- **Privacy**: [powerflow.maohh.top/privacy.html](https://powerflow.maohh.top/privacy.html)
+- **官网**：[powerflow.maohh.top](https://powerflow.maohh.top)
+- **更新日志**：[powerflow.maohh.top/changelog.html](https://powerflow.maohh.top/changelog.html)
+- **隐私说明**：[powerflow.maohh.top/privacy.html](https://powerflow.maohh.top/privacy.html)
 
 ---
 
